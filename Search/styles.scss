@@ -1,0 +1,38 @@
+$fontSize: 14px;
+$fontFamily: arial, sans-serif;
+$fontColor: black;
+
+.body {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
+
+.navbar {
+    list-style-type: none; 
+    display: flex; 
+    flex-direction: row; 
+    justify-content: flex-end;
+}
+
+.navbar-item{
+    text-decoration: none; 
+    padding-left: 15px;
+  }
+
+a:link {
+    color: $fontColor;
+    text-decoration: none;
+}
+
+a:visited {
+    color: $fontColor;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    color: $fontColor;
+}
